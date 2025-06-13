@@ -1,26 +1,6 @@
 ![UI for Apache Kafka logo](documentation/images/kafka-ui-logo.png) UI for Apache Kafka&nbsp;
 ------------------
-#### Versatile, fast and lightweight web UI for managing Apache Kafka® clusters. Built by developers, for developers.
-<br/>
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/provectus/kafka-ui/blob/master/LICENSE)
-![UI for Apache Kafka Price Free](documentation/images/free-open-source.svg)
-[![Release version](https://img.shields.io/github/v/release/provectus/kafka-ui)](https://github.com/provectus/kafka-ui/releases)
-[![Chat with us](https://img.shields.io/discord/897805035122077716)](https://discord.gg/4DWzD7pGE5)
-[![Docker pulls](https://img.shields.io/docker/pulls/provectuslabs/kafka-ui)](https://hub.docker.com/r/provectuslabs/kafka-ui)
-
-<p align="center">
-    <a href="https://docs.kafka-ui.provectus.io/">DOCS</a> • 
-    <a href="https://docs.kafka-ui.provectus.io/configuration/quick-start">QUICK START</a> • 
-    <a href="https://discord.gg/4DWzD7pGE5">COMMUNITY DISCORD</a>
-    <br/>
-    <a href="https://aws.amazon.com/marketplace/pp/prodview-ogtt5hfhzkq6a">AWS Marketplace</a>  •
-    <a href="https://www.producthunt.com/products/ui-for-apache-kafka/reviews/new">ProductHunt</a>
-</p>
-
-<p align="center">
-  <img src="https://repobeats.axiom.co/api/embed/2e8a7c2d711af9daddd34f9791143e7554c35d0f.svg" />
-</p>
 
 #### UI for Apache Kafka is a free, open-source web UI to monitor and manage Apache Kafka clusters.
 
@@ -108,33 +88,6 @@ services:
       - ~/kui/config.yml:/etc/kafkaui/dynamic_config.yaml
 ```
 
-Please refer to our [configuration](https://docs.kafka-ui.provectus.io/configuration/quick-start) page to proceed with further app configuration.
-
-## Some useful configuration related links
-
-[Web UI Cluster Configuration Wizard](https://docs.kafka-ui.provectus.io/configuration/configuration-wizard)
-
-[Configuration file explanation](https://docs.kafka-ui.provectus.io/configuration/configuration-file)
-
-[Docker Compose examples](https://docs.kafka-ui.provectus.io/configuration/compose-examples)
-
-[Misc configuration properties](https://docs.kafka-ui.provectus.io/configuration/misc-configuration-properties)
-
-## Helm charts
-
-[Quick start](https://docs.kafka-ui.provectus.io/configuration/helm-charts/quick-start)
-
-## Building from sources
-
-[Quick start](https://docs.kafka-ui.provectus.io/development/building/prerequisites) with building
-
-## Liveliness and readiness probes
-Liveliness and readiness endpoint is at `/actuator/health`.<br/>
-Info endpoint (build info) is located at `/actuator/info`.
-
-# Configuration options
-
-All of the environment variables/config properties could be found [here](https://docs.kafka-ui.provectus.io/configuration/misc-configuration-properties).
 
 # Contributing
 
