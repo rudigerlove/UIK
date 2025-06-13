@@ -23,10 +23,7 @@ the cloud.
 * **View Consumer Groups** — view per-partition parked offsets, combined and per-partition lag
 * **Browse Messages** — browse messages with JSON, plain text, and Avro encoding
 * **Dynamic Topic Configuration** — create and configure new topics with dynamic configuration
-* **Configurable Authentification** — [secure](https://docs.kafka-ui.provectus.io/configuration/authentication) your installation with optional Github/Gitlab/Google OAuth 2.0
-* **Custom serialization/deserialization plugins** - [use](https://docs.kafka-ui.provectus.io/configuration/serialization-serde) a ready-to-go serde for your data like AWS Glue or Smile, or code your own!
-* **Role based access control** - [manage permissions](https://docs.kafka-ui.provectus.io/configuration/rbac-role-based-access-control) to access the UI with granular precision
-* **Data masking** - [obfuscate](https://docs.kafka-ui.provectus.io/configuration/data-masking) sensitive data in topic messages
+
 
 # The Interface
 UI for Apache Kafka wraps major functions of Apache Kafka with an intuitive user interface.
@@ -71,7 +68,7 @@ docker run -it -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-u
 
 Then access the web UI at [http://localhost:8080](http://localhost:8080)
 
-The command is sufficient to try things out. When you're done trying things out, you can proceed with a [persistent installation](https://docs.kafka-ui.provectus.io/quick-start/persistent-start)
+
 
 ## Persistent installation
 
@@ -91,4 +88,3 @@ services:
 
 # Contributing
 
-Please refer to [contributing guide](https://docs.kafka-ui.provectus.io/development/contributing), we'll guide you from there.
